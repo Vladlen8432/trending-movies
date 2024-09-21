@@ -1,0 +1,38 @@
+.containerHeader {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.headerItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #253339;
+  padding: 6px 40px;
+}
+
+.mainLogo {
+  text-transform: uppercase;
+}
+
+.logoStyled {
+  font-family: "Permanent Marker", cursive;
+  text-decoration: none;
+  color: #aebbc3;
+}
+
+.navLinkHeader {
+  text-decoration: none;
+  color: #aebbc3;
+}
+
+.listHeader {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}

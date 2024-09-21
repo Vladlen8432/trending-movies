@@ -1,0 +1,46 @@
+.containerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.formItem {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.inputForm {
+  width: 488px;
+  height: 38px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(37, 51, 57, 0.2);
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 14px;
+}
+
+.inputForm:focus {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+}
+
+.formButton {
+  padding: 10px 20px;
+  background: transparent;
+  background-color: #6a828d;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.formButton:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+}
